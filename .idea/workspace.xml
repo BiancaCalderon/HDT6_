@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba845355-47b0-4f99-a138-0e0859231442" name="Changes" comment="Main y arreglos">
+    <list default="true" id="ba845355-47b0-4f99-a138-0e0859231442" name="Changes" comment="Modificaciones">
+      <change afterPath="$PROJECT_DIR$/src/ListadoProducto (2).txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/bianc/IdeaProjects/HDT6_/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +48,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bianc\IdeaProjects\HDT6_\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678118937482</updated>
-      <workItem from="1678118938590" duration="9227000" />
+      <workItem from="1678118938590" duration="11847000" />
     </task>
     <task id="LOCAL-00001" summary="Agregar Producto">
       <created>1678149066289</created>
@@ -77,7 +84,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678152442376</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modificaciones">
+      <created>1678154499761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678154499761</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Modificaciones">
+      <created>1678154534043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678154534043</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Modificaciones">
+      <created>1678154582223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678154582223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregar Producto" />
     <MESSAGE value="Main y arreglos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main y arreglos" />
+    <MESSAGE value="Modificaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificaciones" />
   </component>
 </project>
