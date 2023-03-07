@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Map;
@@ -16,24 +17,23 @@ public class Main {
         System.out.println("3) LinkedHashMap");
 
         int opcion = scanner.nextInt();
-        Map<String, Integer> map = MapFactory.getMap(opcion);
+        Map<String, Producto> map = MapFactory.getMap(opcion);
 
         // Leer el archivo
-        try (BufferedReader br = new BufferedReader(new FileReader("inventario.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(new File("inventario.txt")))) {
             String linea;
             while ((linea = br.readLine()) != null) {
-                String[] datos = linea.split("|");
+                String[] datos = linea.split("\\|");
                 String categoria = datos[0];
                 String nombre = datos[1];
                 int cantidad = Integer.parseInt(datos[2]);
                 Producto producto = new Producto(nombre, categoria, cantidad);
-                map.put(nombre, producto.getCantidad());
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        //Inventario inventario = new Inventario(map);
+        Inventario inventario = new Inventario(map);
 
         // opciones
         int opcionMenu;
